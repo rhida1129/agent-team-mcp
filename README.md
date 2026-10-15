@@ -22,6 +22,8 @@ Hosts the same four agents so any MCP client, including local models, can
 use them — not just Claude Code.
 
 ### Setup
+    git clone https://github.com/rhida1129/agent-team-mcp.git
+    cd agent-team-mcp
     pip install -r requirements.txt
     ollama serve && ollama pull llama3.1     # or any OpenAI-compatible server
 
